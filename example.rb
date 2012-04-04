@@ -1,7 +1,7 @@
 #!/usr/bin/env jruby
 
 # Setup:
-# curl -O http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
+# curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
 
 require "java"
 
