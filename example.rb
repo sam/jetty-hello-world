@@ -5,7 +5,7 @@
 #
 #   curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
 #
-# Then just start it up (I'm using RVM to run JRuby-HEAD under OpenJDK 1.7u2 on OSX):
+# Then just start it up (I'm using RVM to run JRuby-HEAD under OpenJDK 7u2 on OSX):
 #
 #   ./example.rb
 #
