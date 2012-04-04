@@ -3,6 +3,8 @@
 # Setup:
 # curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
 
+# After warm-up, I get about 7,000 requests-per-second with this on my laptop using httperf. Pretty nifty!
+
 require "java"
 
 jars = File.join(File.dirname(__FILE__), "jetty-distribution-8.1.2.v20120308", "lib", "*.jar")
