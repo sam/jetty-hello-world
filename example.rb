@@ -1,8 +1,14 @@
 #!/usr/bin/env jruby
 
 # Setup:
-# curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
-
+# Clone the project. Then pull down the Jetty jars:
+#
+#   curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
+#
+# Then just start it up (I'm using RVM to run JRuby-HEAD under OpenJDK 1.7u2 on OSX):
+#
+#   ./example.rb
+#
 # After warm-up, I get about 7,000 requests-per-second with this on my laptop using httperf. Pretty nifty!
 
 require "java"
