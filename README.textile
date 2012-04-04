@@ -1,0 +1,11 @@
+h1. Setup
+
+Clone the project. Then pull down the Jetty jars:
+
+bc. curl http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-8.1.2.v20120308.tar.gz | tar -xz -
+
+Then just start it up (I'm using RVM to run JRuby-HEAD under OpenJDK 7u2 on OSX):
+
+bc. ./example.rb
+
+After warm-up, I get about _7,000_ requests-per-second with this on my two year old work laptop using httperf. Pretty nifty!
